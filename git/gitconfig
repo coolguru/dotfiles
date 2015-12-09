@@ -130,3 +130,5 @@
   path = .gitconfig.user
 [init]
 	templatedir = ~/.git_template
+[user]
+	name = Jacob Reynolds

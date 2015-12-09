@@ -5,3 +5,5 @@ source ~/.rvm/scripts/rvm
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+ssh-add ~/.ssh/github_personal_id_rsa
