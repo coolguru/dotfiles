@@ -20,6 +20,7 @@ set autoread                    "Reload files changed outside vim
 set ruler                       "Show ruler
 set undolevels=1000             "Undo levels
 set laststatus=2                "Fix status bar
+let g:syntastic_typescript_checkers = ['tslint']
 
 " This makes vim act like all other editors, buffers can
 " exist in the background without being in a window.
