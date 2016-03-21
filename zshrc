@@ -40,6 +40,7 @@ alias gpp="git pull; git push"
 alias gd="git diff"
 alias gds="git diff --staged"
 alias vi="vim"
+alias z="zeus"
 
 PATH=$PATH:~/.local/bin
 
