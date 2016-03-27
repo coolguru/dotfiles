@@ -18,7 +18,10 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh_reload
 
 # Use my custom theme gist
-antigen theme https://gist.github.com/51dba9c555e680d7e883.git dbalatero
+antigen theme https://gist.github.com/31dd75bf9b2f64b1aad9.git jereynolds
+
+# dbal's theme
+# antigen theme https://gist.github.com/51dba9c555e680d7e883.git dbalatero
 
 antigen apply
 
