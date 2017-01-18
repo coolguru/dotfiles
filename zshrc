@@ -31,20 +31,3 @@ do
 done
 
 source $HOME/.zsh/after.zsh
-
-alias ls="gls --color"
-
-alias gs="git status"
-alias gl="git log"
-alias gsl="git stash list"
-alias gsp="git stash pop"
-alias gc="git commit -m"
-alias gpp="git pull; git push"
-alias gd="git diff"
-alias gds="git diff --staged"
-alias vi="vim"
-alias z="zeus"
-
-PATH=$PATH:~/.local/bin
-
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
