@@ -19,7 +19,10 @@ source ~/.rvm/scripts/rvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
-# Load Go path
-export PATH=$PATH:/usr/local/go/bin
+# Load go executable path
+export PATH=$PATH:$GOROOT/bin
+
+# Load aws cli path
+export PATH=$PATH:~/.local/lib/aws/bin
 
 export PATH=$PATH:~/.local/bin

@@ -4,6 +4,7 @@ alias z="zeus"
 zroute() { zeus rake routes | ag $@ }
 
 alias ls="gls --color"
+alias sl="ls"
 
 # Git aliases
 alias gs="git status"
